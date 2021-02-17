@@ -16,7 +16,7 @@
     transition: width 2s;
 }
 
-.ex-2-square:hover {
+.ex-2-square:active {
     width: 100%;
 }
 
@@ -52,7 +52,18 @@
 
 /* esercizio 6 */
 
-
 .ex-6-img:hover {
     filter: grayscale(1);
+}
+
+/* esercizio 7 */
+
+.ex-7-img {
+    transition: filter 2s;
+
+}
+
+.ex-7-img:hover {
+    filter: sepia(1);
+
 }
