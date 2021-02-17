@@ -102,6 +102,24 @@
 
 /* esercizio 11 */
 
+.ex-11-icon:hover {
+    animation: unaRotazione 2.5s linear;
+}
+@keyframes unaRotazione {
+    0% {
+        transform: rotate(0);
+    }
+
+    80% {
+        transform: rotate(315deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
+
+
 
 
 
