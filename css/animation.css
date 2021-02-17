@@ -69,14 +69,25 @@
 /* esercizio 8 */
 
 .ex-8-img {
-    transition: all 1.5s;
-
+    transition: all 1.8s;
 }
 
 .ex-8-img:hover {
     border-radius: 20px;
     filter: grayscale(0.7);
-
 }
+
+/* esercizio 9 */
+
+.ex-9-img {
+    transition: all 2s;
+}
+
+.ex-9-img:hover {
+    border-radius: 20px;
+    filter: grayscale(0.7);
+    transform: scale(1.5);
+}
+
 
 
