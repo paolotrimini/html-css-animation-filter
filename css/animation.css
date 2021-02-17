@@ -31,3 +31,11 @@
 }
 
 /* esercizio 4 */
+
+.ex-4-square {
+    transition: opacity 1s;
+}
+
+.ex-4-square:hover {
+    opacity: 0;
+}
