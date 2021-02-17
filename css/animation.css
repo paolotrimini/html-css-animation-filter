@@ -40,14 +40,14 @@
     opacity: 0;
 }
 
-/* esercizio 5 */
+/* esercizio 5 correggere */
 
 .ex-5-square {
-
+    transition: scale 4s;
 }
 
 .ex-5-square:hover {
-
+    transform: scale(1.7);
 }
 
 /* esercizio 6 */
@@ -88,6 +88,9 @@
     filter: grayscale(0.7);
     transform: scale(1.5);
 }
+
+/* esercizio 10 */
+
 
 
 
