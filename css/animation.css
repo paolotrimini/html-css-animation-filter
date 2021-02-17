@@ -92,13 +92,17 @@
 /* esercizio 10 */
 
 .ex-10-icon {
-    animation: spin 1s linear infinite;
+    animation: rotazione 1s linear infinite;
 }
-@keyframes spin {
+@keyframes rotazione {
     0% {
         transform: rotate(0.8turn);
     }
 }
+
+/* esercizio 11 */
+
+
 
 
 
